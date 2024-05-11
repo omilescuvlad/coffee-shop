@@ -8,5 +8,5 @@ Autentificare și Înregistrare: Posibilitatea pentru utilizatori de a crea cont
 Tehnologii Utilizate:<br>
 
 Front-end: HTML, CSS, JavaScript (poate fi utilizat un framework precum React sau Vue.js pentru a facilita dezvoltarea interfeței utilizatorului)<br>
-Back-end: Node.js 
+Back-end: Node.js
 
