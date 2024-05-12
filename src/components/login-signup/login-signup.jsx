@@ -5,7 +5,7 @@ import user_icon from '../assets/person.png';
 import email_icon from '../assets/email.png';
 import password_icon from '../assets/password.png';
 
-export const PULAMEA = () => {
+export const LoginSignup = () => {
 
     const [action,setAction] = useState("Login");
 
