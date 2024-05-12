@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './login-signup.css';
 
-import user_icon from '../assets/person.png';
-import email_icon from '../assets/email.png';
-import password_icon from '../assets/password.png';
+import user_icon from '../Assets/person.png';
+import email_icon from '../Assets/email.png';
+import password_icon from '../Assets/password.png';
 
 export const LoginSignup = () => {
 
@@ -11,7 +11,7 @@ export const LoginSignup = () => {
 
   return (
     <div className='container'>
-        <div className="header">
+        <div className="header_login">
             <div className="text">{action}</div>
             <div className="underline"></div>
         </div>
