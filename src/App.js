@@ -5,12 +5,14 @@ import { Home } from './pages/home/home.jsx';
 import Placeorder from './pages/placeorder/placeorder.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Cart from './pages/cart/cart.jsx';
+import { Navbar } from './components/navbar/navbar.jsx';
 
 
 function App() {
   return (
     <>
     <div className='app'>
+    <Navbar/>
         <Routes>
           < Route path='/' element={<Home/>} />
           < Route path='/cart' element={<Cart/>} />
